@@ -3,7 +3,7 @@ import { HomeFAQ } from "./utils/FAQ";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{maxWidth: 1440, backgroundColor: 'white'}}>
      <CustomAccordion listFaq={HomeFAQ} />
     </div>
   );
