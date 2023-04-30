@@ -67,7 +67,11 @@ const CustomAccordion = ({listFaq}) => {
         <AccordionSummary open={expanded === index} aria-controls={`panel1d-${faq?.id}`} id={`panel1d-${faq?.id}`}>
           <Typography>{faq?.title?.toUpperCase()} </Typography>
         </AccordionSummary>
-        
+        <AccordionDetails>
+          <Typography className='faq_text'>
+            {faq?.text}
+          </Typography>
+        </AccordionDetails>
       </Accordion>
       ))}
     </div>
