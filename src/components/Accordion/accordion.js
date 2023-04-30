@@ -7,7 +7,7 @@ import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import './faq.scss'
+import './accordion.scss'
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -38,7 +38,7 @@ const AccordionSummary = styled((props) => {
   '& .MuiAccordionSummary-content': {
     marginLeft: theme.spacing(1),
     '& p': {
-      fontSize: '32px',
+      fontSize: '25px',
       paddingRight: 135,
       fontWeight: 700,
     } 
